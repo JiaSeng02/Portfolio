@@ -7,6 +7,7 @@ import router from "./router";
 import showMessage from "./utils/showMessage";
 import "./eventBus";
 import store from "./store";
+import "@fortawesome/fontawesome-free/css/all.css";
 store.dispatch("setting/fetchSetting");
 Vue.prototype.$showMessage = showMessage;
 
