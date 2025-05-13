@@ -32,12 +32,6 @@ export default {
           exact: true,
         },
         {
-          name: "Blog",
-          title: "Blog",
-          icon: "blog",
-          exact: false, // 激活状态是否要精确匹配
-        },
-        {
           name: "About",
           title: "AboutMe",
           icon: "about",
